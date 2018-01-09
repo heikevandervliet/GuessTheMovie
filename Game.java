@@ -54,7 +54,7 @@ public class Game {
 			System.out.println((10-points)+" wrong gues(ses): " + fout);
 				
 			} else {
-				fout.append(guess.charAt(0));
+				fout.append(" ").append(guess.charAt(0));
 				points--;
 				System.out.println("Wrong character.");
 				System.out.println((10-points)+" wrong gues(ses): " + fout);
